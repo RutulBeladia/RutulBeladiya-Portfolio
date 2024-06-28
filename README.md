@@ -1,3 +1,6 @@
+
+![Screenshot 2024-06-28 191739](https://github.com/RutulBeladia/RutulBeladiya-portfolio/assets/133772715/b6c6dc41-1925-4d71-8119-4947a8e534ed)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
