@@ -1,0 +1,127 @@
+#skills{
+    overflow: hidden;
+    width: 100/w;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+.skillTitle {
+     font-size: 3rem; 
+     font-weight: 600; 
+     padding-top: 3rem; 
+     margin-bottom: 1.5rem;
+}
+.skillDesc{
+    font-weight: 400; 
+    font-size: 1rem; 
+    max-width: 51rem; 
+    padding: 0 2rem;
+    padding-bottom: 2rem;
+}
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding-bottom: 3rem;
+}
+
+.skill-item i {
+    font-size: 80px;
+    transition: transform 0.3s, color 0.3s;
+}
+
+.skill-item:hover i {
+    transform: scale(1.2);
+}
+
+.skill-item:nth-child(1) i {
+    color: #e34f26; /* HTML */
+}
+
+.skill-item:nth-child(2) i {
+    color: #1572b6; /* CSS */
+}
+
+.skill-item:nth-child(3) i {
+    color: #f7df1e; /* JavaScript */
+}
+
+.skill-item:nth-child(4) i {
+    color: #dd1b16; /* Angular */
+}
+
+.skill-item:nth-child(5) i {
+    color: #3776ab; /* Python */
+}
+
+.skill-item:nth-child(6) i {
+    color: #00758f; /* MySQL */
+}
+
+.skill-item:nth-child(7) i {
+    color: #47a248; /* MongoDB */
+}
+
+.skill-item:nth-child(8) i {
+    color: #f34f29; /* Git */
+}
+
+.skill-item:nth-child(9) i {
+    color: #181717; /* GitHub */
+}
+
+.skill-item:nth-child(10) i {
+    color: #777bb4; /* PHP/MVC */
+}
+
+.skill-item:nth-child(11) i {
+    color: #61dafb; /* React.js */
+}
+
+.skill-item:nth-child(12) i {
+    color: #68a063; /* Node.js */
+}
+
+.skill-item:nth-child(13) i {
+    color: #00b4ab; /* IoT */
+}
+
+.skill-item:nth-child(14) i {
+    color: #fcc624; /* Linux */
+}
+
+.skill-item:nth-child(15) i {
+    color: #f37800; /* Matlab */
+}
+
+.skill-item:nth-child(16) i {
+    color: #c00000; /* Simulink */
+}
+
+@media (max-width: 1200px) {
+    .skills-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (max-width: 992px) {
+    .skills-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .skills-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 576px) {
+    .skills-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
